@@ -1,0 +1,90 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: beige;
+  /*background-color: rgb(12, 180, 138);*/
+  background: -webkit-linear-gradient(
+    to left,
+    rgb(12, 180, 138),
+    rgb(6, 78, 60)
+  );
+  background: linear-gradient(to left, rgb(12, 180, 138), rgb(6, 78, 60));
+}
+.container {
+  background-color: darkslateblue;
+  height: 525px;
+  width: 360px;
+  margin: 100px auto;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.12),
+    0 4px 4px rgba(0, 0, 0, 0.12), 0 8px 8px rgba(0, 0, 0, 0.12),
+    0 16px 16px rgba(0, 0, 0, 0.12);
+}
+h1 {
+  background-color: rgb(26, 44, 44);
+  color: blanchedalmond;
+  margin: 0;
+  padding: 10px 100px;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: normal;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  text-align: center;
+}
+p {
+  margin-left: 20px;
+}
+
+#billamt {
+  padding: 5px 5px 8px 8px;
+  margin-left: 5px;
+}
+#quality {
+  margin-left: 20px;
+  padding: 5px 5px 8px 8px;
+}
+#amtpeople {
+  margin-left: 20px;
+  width: 60%;
+  font-size: 14px;
+  padding: 5px 5px 8px 8px;
+}
+#amtp {
+  margin-left: 10px;
+}
+.btns {
+  display: flex;
+  align-items: center;
+}
+
+.btns button {
+  display: inline-block;
+  margin: 30px auto;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 15px;
+  background-color: midnightblue;
+  color: beige;
+  border-color: navy;
+}
+#calc {
+  margin-right: 5px;
+}
+#reset {
+  margin-left: 5px;
+}
+#totalTip {
+  font-size: 25px;
+  text-align: center;
+  color: darkslateblue;
+  background-color: blanchedalmond;
+  margin-left: 25%;
+  margin-right: 25%;
+  border-radius: 3px;
+  padding: 5px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.12),
+    0 4px 4px rgba(0, 0, 0, 0.12), 0 8px 8px rgba(0, 0, 0, 0.12),
+    0 16px 16px rgba(0, 0, 0, 0.12);
+}
